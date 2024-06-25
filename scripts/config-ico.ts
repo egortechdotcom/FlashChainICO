@@ -22,8 +22,8 @@ async function main() {
     const SIGNER = addresses[chainId].SIGNER;
 
     // Variables
-    const rate = 30n;
-    const supply = ethers.parseEther("10000000");
+    const rate = 66700n;
+    const supply = ethers.parseEther("500000000");
 
     await (await ico.setICOInfo(supply, rate)).wait();
 
